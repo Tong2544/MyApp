@@ -16,7 +16,7 @@ class AppRoute {
 
 
   final _route = <String, WidgetBuilder>{
-    homeRoute: (context) => LoginScreen(),
+    homeRoute: (context) => HomeScreen(),
     loginRoute: (context) => LoginScreen(),
     registerRoute: (context) => RegisterScreen(),
     typeRoute: (context) => TypeScreen(),
